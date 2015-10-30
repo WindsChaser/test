@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+	<Musics>
+		<Music Sign="0">
+			<explode Src="Source\MusicSource\0\explode.wav" />
+			<step Src="Source\MusicSource\0\step.wav" />
+			<skill Src="Source\MusicSource\0\skill.wav" />
+			<recover Src="Source\MusicSource\0\recover.wav" />
+			<iceflush1 Src="Source\MusicSource\0\iceflush1.wav" />
+			<iceflush2 Src="Source\MusicSource\0\iceflush2.wav" />
+			<hurt_m Src="Source\MusicSource\0\hurt_m.wav" />
+			<hurt_f Src="Source\MusicSource\0\hurt_f.wav" />
+		</Music>
+	</Musics>
+</Config>

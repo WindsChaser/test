@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <Maps>
+    <Map Sign="0">
+			<StartMask1 Src="Source\MapSource\0\start_p1.jpg" />
+			<StartMask2 Src="Source\MapSource\0\start_p2.jpg" />
+      <Background Src="Source\MapSource\0\background.jpg" />
+			<Brick Src="Source\MapSource\0\brick_80x80.png" />
+			<HPDrug Src="Source\MapSource\0\HpDrug.png" />
+			<MPDrug Src="Source\MapSource\0\MpDrug.png" />
+			<HMDrug Src="Source\MapSource\0\HMDrug.png" />
+			<Decoration1 Src="Source\MapSource\0\decoration_1.png" />
+			<Decoration2 Src="Source\MapSource\0\decoration_2.png" />
+		  <Effect Src="Source\MapSource\0\effect.gif" />
+    </Map>
+  </Maps>
+</Config>

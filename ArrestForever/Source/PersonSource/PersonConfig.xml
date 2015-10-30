@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+	<Persons>
+		<Person Sign="0">
+			<left Src="Source\PersonSource\0\left.gif" />
+			<right Src="Source\PersonSource\0\right.gif" />
+			<up Src="Source\PersonSource\0\up.gif" />
+			<down Src="Source\PersonSource\0\down.gif" />
+		</Person>
+		<Person Sign="1">
+			<left Src="Source\PersonSource\1\left.gif" />
+			<right Src="Source\PersonSource\1\right.gif" />
+			<up Src="Source\PersonSource\1\up.gif" />
+			<down Src="Source\PersonSource\1\down.gif" />
+		</Person>
+	</Persons>
+</Config>

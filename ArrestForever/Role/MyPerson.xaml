@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="ArrestForever.Role.MyPerson"
+             x:Name="main"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:QXControl="clr-namespace:QX.Game.Controls;assembly=QX"
+             xmlns:ArrestForever="clr-namespace:ArrestForever.Role"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="100">
+    <Viewbox Stretch="Fill">
+        <Canvas Name="Spirit" Height="50" Width="50">
+            <Image Name="body" Width="50" Height="50"/>
+            <StackPanel Name="info" Width="150" Height="45" Canvas.Top="-45" Canvas.Left="-50" Orientation="Vertical" RenderTransformOrigin="0.5,0.5">
+                <StackPanel.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="-1" ScaleX="1"/>
+                        <SkewTransform AngleY="0" AngleX="0"/>
+                        <RotateTransform Angle="0"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </StackPanel.RenderTransform>
+                <ArrestForever:Magic x:Name="magic" Width="60" Height="10" Margin="0,0,0,5" />
+                <ArrestForever:Blood x:Name="blood" Width="60" Height="10" Margin="0,0,0,3" />
+                <QXControl:BorderText Name="Faction" Fill="Orchid" FontSize="15" Bold="True" Stroke="Black" StrokeThickness="0.1" Text="主角1" Height="13" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5" >
+                    <QXControl:BorderText.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="-1" ScaleX="1"/>
+                            <SkewTransform AngleY="0" AngleX="0"/>
+                            <RotateTransform Angle="0"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </QXControl:BorderText.RenderTransform>
+                </QXControl:BorderText>
+            </StackPanel>
+        </Canvas>
+    </Viewbox>
+</UserControl>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+	<Bombs>
+		<Bomb Sign="0">
+			<bomb Src="Source\BombSource\0\bomb.gif" />
+			<effect Src="Source\BombSource\0\effect.png" />
+			<skill1 Src="Source\BombSource\0\skill1.png" />
+			<skill2 Src="Source\BombSource\0\skill2.png" />
+			<skill3 Src="Source\BombSource\0\skill3.png" />
+			<skill4 Src="Source\BombSource\0\skill4.png" />
+			<skill5 Src="Source\BombSource\0\skill5.png" />
+			<skill6 Src="Source\BombSource\0\skill6.png" />
+			<skill7 Src="Source\BombSource\0\skill7.png" />
+		</Bomb>
+	</Bombs>
+</Config>
